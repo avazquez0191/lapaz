@@ -225,25 +225,25 @@
         <p class="text-right"><a href="http://factoridea.us" class="icon-factor" style="padding-right: 32px;padding-top: 10px;color: #b8b8b8;">Designed and developed by Factor Idea</a></p>
     </footer>
   </body>
-</html>
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script>
-$(document).ready(function() {
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script>
+  $(document).ready(function() {
 
-  $('#monterreyiframe').attr('style','border:0;pointer-events:none');
-  $('#monterrey').click(function() {
-    //$(this).css('pointer-events', 'auto');
+    $('#monterreyiframe').attr('style','border:0;pointer-events:none');
+    $('#monterrey').click(function() {
+      //$(this).css('pointer-events', 'auto');
 
-    $('#monterreyiframe').attr('style','border:0;pointer-events:auto')
-  });
+      $('#monterreyiframe').attr('style','border:0;pointer-events:auto')
+    });
 
-  $('#CDMiframe').attr('style','border:0;pointer-events:none');
-  $('#cdmexico').click(function() {
-    //$(this).css('pointer-events', 'auto');
+    $('#CDMiframe').attr('style','border:0;pointer-events:none');
+    $('#cdmexico').click(function() {
+      //$(this).css('pointer-events', 'auto');
 
-    $('#CDMiframe').attr('style','border:0;pointer-events:auto')
+      $('#CDMiframe').attr('style','border:0;pointer-events:auto')
+    });  
   });  
-});  
-</script>
+  </script>
+</html>
