@@ -1,0 +1,341 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url('../fonts/HelveticaLTStd-Light.eot');
+    src: url('../fonts/HelveticaLTStd-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-Light.svg#Helvetica') format('svg'), url('../fonts/HelveticaLTStd-Light.woff') format('woff'), url('../fonts/HelveticaLTStd-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url('../fonts/HelveticaLTStd-Bold.eot');
+    src: url('../fonts/HelveticaLTStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaLTStd-Bold.svg#Helvetica') format('svg'), url('../fonts/HelveticaLTStd-Bold.woff') format('woff'), url('../fonts/HelveticaLTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    font-family: "Helvetica", Georgia, Times, serif;
+    color: #1b2d5a;
+}
+.navbar-toggle {margin-top: 28px;}
+.navbar-default {
+    background-color: #eaeef0; 
+    background: url("../img/backheader.jpg") repeat-x top left;
+    min-height: 209px;
+    border-color: transparent;
+    font-size: 16px;
+}
+#bs-example-navbar-collapse-1{margin-top:90px;}
+
+.navbar-default .navbar-nav>.active>a{background:none !important; font-family:"Helvetica-Bold", Georgia, Times, serif !important; color:#234c5a;}
+.navbar-default .navbar-nav>li>a {
+    color: #234c5a;
+    font-family: "Helvetica", Georgia, Times, serif;
+    padding: 5px 40px;
+    text-align:center;
+
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>.active>a:hover{background-image:none;font-family:"Helvetica-Bold", Georgia, Times, serif !important; color:#234c5a;}
+.navbar-default .navbar-nav>li{ border-right: 1px solid #a9ae00;min-width: 170px; }
+.navbar-form{margin-top:0;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover
+{
+    background:none;background-image:none;font-family:"Helvetica-Bold", Georgia, Times, serif !important; color:#234c5a;
+}
+.dropdown-menu{background-color:#153742; opacity:.8;}
+.dropdown-menu>li>a{color:#fff; padding-top: 20px; padding-bottom: 20px; font-size: 16px;}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #234c5a;
+}
+
+.dropdown-menu>li>a:hover{background-color:transparent; color:#fff;font-family:"Helvetica-Bold", Georgia, Times, serif;}
+.navbar-brand {padding-top: 30px;}
+#section-home-banner
+{
+    background: url("../img/bannerhome.jpg") no-repeat left top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:25% 0;
+}
+.mbotom10{margin-bottom:10px;}
+.p20{padding:20px;}
+.p70{padding-top:70px;}
+.p100{padding-top:100px;}
+.p10{padding:10px;}
+.p20300{padding:20px 300px;}
+.pleft20{padding-left:20px;}
+#bienvenido
+{
+    background: #eaeef0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;
+}
+#bienvenido h2{ font-size: 50px;}
+#bienvenido .boderh2{color:#b4b903;border-bottom:4px dotted #b4b903;}
+#bienvenido p{color:#234c5a;font-size:16px; padding:20px 40px;}
+#section-servicio-banner
+{
+    background: url("../img/banner-servicio.jpg") no-repeat left top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;
+}
+
+#section-servicio-banner h2{ font-size: 50px;}
+#section-servicio-banner .boderh2{color:#c5ced2;border-bottom:4px dotted #c5ced2;}
+
+#section-servicio-banner .border{border: 1px solid #b4b903; min-height: 250px; position:relative;}
+#section-servicio-banner .encabezado{background:#e8ecee;padding: 5px;}
+#section-servicio-banner h3{color:#234c5a; font-size: 20px;}
+#section-servicio-banner p{font-size:16px; color:#c3ccd0;padding:30px 20px;}
+#section-servicio-banner .flecha{top:89%; left: 40%; position:absolute;}
+#section-promociones
+{
+    background-color:#203c45;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;    
+}
+
+#section-promociones p{color:#aec7cb; font-size:18px; padding: 20px;}
+#section-promociones .border{border: 1px solid #b4b903; min-height: 250px; position:relative; padding: 100px 20px 20px 20px;}
+#section-promociones .precio{top:-25%; left: 25%; position:absolute;}
+#section-promociones .comprar{top:90%; left: 25%; position:absolute;}
+#section-promociones .borderbottom{border-bottom: 1px solid #aec7cb;}
+
+#section-marcas
+{
+    background-color:#f6f6f6;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;    
+}
+
+#section-marcas .boderh2{color:#d8d8d8;border-bottom:4px dotted #d8d8d8;}
+
+#section-marcas h2{ font-size: 50px;}
+
+#section-convencidos
+{
+    background-color:#b4b903;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;    
+}
+
+#section-convencidos p{color:#fff; font-size: 45px; padding: 20px;}
+footer p{color:#b8b8b8; font-size: 12px; padding: 20px;}
+
+#section-email
+{
+    background-color:#234c5a;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;    
+}
+#section-contacto
+{
+    background-color:#eaeef0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;    
+}
+
+#section-contacto h2{ font-size: 50px;}
+#section-contacto .boderh2{color:#b4b903;border-bottom:4px dotted #b4b903;}
+#section-contacto p{color:#234c5a;font-size:16px; padding:20px 40px;}
+#section-contacto label{color:#999999;font-size:16px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background:#254e5b !important; color:#c3ccd0; font-size: 16px;}
+.nav-tabs>li>a {
+    color: #254e5c;
+    font-size: 16px;
+}
+#section-fianzas
+{
+    background: url("../img/banner-fianzas.jpg") no-repeat left top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:25% 0;
+}
+
+#section-about
+{
+    background: url("../img/back_about.jpg") no-repeat left top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:15% 0;
+    margin-top: 8%;
+    position:relative;
+}
+#section-about .flecha{top:94%; left: 50%; position:absolute;}
+
+#section-anos-1{
+    padding:5% 0;
+}
+#section-anos-1 .boderh2{color:#234c5a;border-bottom:2px dotted #234c5a;}
+#section-anos-1 p{
+    font-size:18px;
+    color: #2c454d;
+}
+.mlr20{margin-left:20%; margin-right:20%;}
+.mlr25{margin-left:25%; margin-right:25%;}
+.mlr35{margin-left:35%; margin-right:35%;}
+#section-anos-1 h2, #section-anos-2 h2{font-size:80px;font-family:"Helvetica-Bold", Georgia, Times, serif;}
+.amarillo{color:#b4b903;}
+.azulverde{color:#2c454d;}
+
+#section-anos-2
+{
+    background: url("../img/back-anos-2.jpg") no-repeat left top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+#section-anos-2 p{
+    font-size:18px;
+    color: #fff;
+}
+#section-anos-2 .boderh2{color:#fff;border-bottom:2px dotted #fff;}
+
+
+#section-servicio-fianza h2{ font-size: 50px;}
+#section-servicio-fianza .boderh2{color:#fff;border-bottom:4px dotted #fff;}
+
+#section-servicio-fianza
+{
+    background: url("../img/banner-servicio.jpg") no-repeat left top;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding:2% 0;
+    position:relative;
+}
+
+#section-servicio-fianza .border{border: 1px solid #b4b903; min-height: 50px; position:relative;}
+#section-servicio-fianza .encabezado{background:#234c5a;padding: 5px;}
+#section-servicio-fianza .encabezado:hover{background:#b3b804;padding: 5px;cursor:pointer;}
+#section-servicio-fianza h3{color:#fff; font-size: 20px;}
+#section-servicio-fianza p{font-size:16px; color:#c3ccd0;padding:30px 200px;}
+#section-servicio-fianza .flecha{top:93%; left: 50%; position:absolute;}
+#section-servicio-fianza .active{background:#b3b804;padding: 5px;cursor:pointer;}
+
+#section-administrativa
+{
+    padding:5% 0;
+}
+#section-administrativa .panel-default>.panel-heading {
+    background-color: transparent;
+    border-color: #b4b903;
+}
+
+#section-administrativa .panel-default {
+    border-color: #b4b903;
+}
+
+#section-administrativa .panel-title a:focus, #section-administrativa .panel-title a:hover {
+    font-family:"Helvetica-Bold", Georgia, Times, serif;
+    text-decoration: none;
+}    
+
+#section-administrativa .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+}
+#section-administrativa .panel-body h2{ margin-top:0; }
+
+#section-administrativa p{
+    font-size:16px;
+    color:#365764;
+    padding:5px 5%;
+}
+#section-administrativa .small{font-size: 12px;}
+
+#section-seguro
+{
+    padding:5% 0;
+}
+
+#section-seguro p{
+    font-size:14px;
+    color:#365764;
+}
+
+@media (max-width: 767px){
+    .navbar {
+        margin-top: 0;        
+    }
+    .navbar-nav {
+        background: #eaeef0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 5px 20px;
+        text-align:left;
+    }       
+    #section-home-banner
+    {
+        padding:45% 0;
+    } 
+    #section-fianzas
+    {
+        padding:45% 0;
+    }        
+    .navbar-brand>img {width:80px};  
+    .navbar-brand {height: 130px;padding-top: 40px;}
+    .navbar-default {min-height: 129px;}
+
+    #section-promociones .border{margin-top: 100px;}
+    #section-servicio-fianza p{padding: 25px 10px;}
+    #section-convencidos p{font-size: 20px;}
+    #section-about .flecha {
+        top: 90%;
+        left: 45%;
+        position: absolute;
+    }
+    #section-about{
+        padding: 30% 0;
+        margin-bottom: 40px;
+    }    
+} 
+
+.panel-title h2{ font-size: 16px; margin: 0}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1)  {
+    .navbar-default .navbar-nav>li>a {
+        padding: 5px 0;
+        text-align:center;
+    } 
+    .navbar-default .navbar-nav>li{
+        min-width: 120px;
+    } 
+}
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
